@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top List Of Song Siantar Raf Foundation</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/garuda.js"></script>
+    <link rel="stylesheet" href="assets/css/paper.min.css">
+</head>
+
+<body>
+
+    <nav class="border fixed split-nav">
+        <div class="nav-brand">
+            <h4><a href="#">
+                    <img src="assets/img/batak-flag-siantar-rap-foundation.jpg" width="40" height="40" alt="">
+                    Siantar Rap Foundation</a>
+            </h4>
+        </div>
+        <div class="collapsible">
+            <input id="collapsible1" type="checkbox" name="collapsible1">
+            <label for="collapsible1">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </label>
+            <div class="collapsible-body">
+                <ul class="inline">
+                    <li><a target="_blank" href="https://www.youtube.com/channel/UCX9AkEAyZH9hjRZfvn67zJg">Youtube</a>
+                    </li>
+                    <li><a target="_blank"
+                            href="https://www.google.com/maps/place/Lake+Toba/@2.610761,98.8359673,10z/data=!3m1!4b1!4m5!3m4!1s0x3031de07a843b6ad:0xc018edffa69c0d05!8m2!3d2.7860786!4d98.6160674">Map</a>
+                    </li>
+                    <li><a target="_blank" href="https://github.com/lamhotsimamora/siantar-rap-foundation">Github</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br>
+
+    <div class="container-md">
+        <center>
+            <div class="card" style="width: 20rem;">
+                <div class="card-body">
+                    <h4 class="card-title">Mulak Tu Huta</h4>
+                    <img src="assets/img/aksara-batak-siantar-rap-foundation.jpg" alt="">
+                    <h5 class="card-subtitle"> Wahyu Sibuea</h5>
+
+                    <p class="card-text">
+                        <strong>Artist</strong> : Siantar Rap Foundation & Wahyu Sibuea <br>
+                        <strong>Title </strong>: Mulak Tu Huta <br>
+                        <strong>Cipt. </strong>: Awenz <br>
+                        <strong>Music </strong>: Awenz <br>
+                        <strong>Album </strong>: Raptradisi
+                    </p>
+                    <button onclick="goTo(1)">Open In Youtube</button>
+                </div>
+
+            </div>
+            <hr>
+            <div class="card" style="width: 20rem;">
+                <div class="card-body">
+                    <h4 class="card-title">Dakka Ni</h4>
+                    <img src="assets/img/aksara-batak-siantar-rap-foundation.jpg" alt="">
+                    <h5 class="card-subtitle">Awenz</h5>
+
+                    <p class="card-text">
+                        <strong>Artist</strong> : Siantar Rap Foundation <br>
+                        <strong>Title </strong>: Dakka Ni <br>
+                        <strong>Cipt. </strong>: Awenz <br>
+                        <strong>Music </strong>: Awenz <br>
+                        <strong>Album </strong>: Raptradisi
+                    </p>
+                    <button onclick="goTo(2)">Open In Youtube</button>
+
+                </div>
+
+            </div>
+            <hr>
+            <div class="card" style="width: 20rem;">
+                <div class="card-body">
+                    <h4 class="card-title">Ai Holan Ho</h4>
+                    <img src="assets/img/aksara-batak-siantar-rap-foundation.jpg" alt="">
+                    <h5 class="card-subtitle">Tari Chan</h5>
+                    <p class="card-text">
+                        <strong>Artist</strong> : Siantar Rap Foundation<br>
+                        <strong>Title </strong>: Ai Holan Ho <br>
+                        <strong>Cipt. </strong>: Awenz <br>
+                        <strong>Music </strong>: Awenz <br>
+                        <strong>Album </strong>: Raptradisi
+                    </p>
+                    <button onclick="goTo(3)">Open In Youtube</button>
+                </div>
+
+            </div>
+        </center>
+
+    </div>
+
+    <script>
+
+        function goTo(v) {
+            switch (1) {
+                case 1:
+                    window.location.href = "https://youtu.be/GDOMvSw_Unw";
+                    break;
+                case 2:
+                    window.location.href = "https://youtu.be/T-1QiT_H2zg";
+                    break;
+
+                case 3:
+                    window.location.href = "https://youtu.be/UbE5uZZJwro";
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        Swal.fire({
+            icon: 'success',
+            title: 'Horas!!!',
+            text: 'Hamoraon, Hagabeon, Hasangapon',
+            footer: '<a href="">Mauliate!!!</a>'
+        })
+    </script>
+
+</body>
+
+</html>
